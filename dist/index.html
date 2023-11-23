@@ -2,14 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon-UYj5k-04.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABO1JREFUWEfFl21MW1UYx/+ntxTpK0gQBmwdjhmiRJ0iewHcG5swyIzOJcKifhgki8bF6JIlJsYP6gcNA9roNLYzmdtgY+hidIY5XZSocxtvU7YsQaNz4OJYKfcWaC/09phTbNf2nr5oNNxv7T3neX73/3/OOc8hSPG53e4yGzJInQZ0A4jmfoAWAcj8e/okQH4FDQwFQM5Me+nJid3ZUiqhSbJBhe/dWC4IaXtBaAMB9MnGs/cUmAElnYoy9+borjtGEs2JC1DYei1DMOlfI4TsBpCWSmLOmDlKqV3xzLwy+uJiLy8GF6DQKRYLUE4QoPRfJo6aRoFhBcJjo02Wn2PjqQDyne4VOuAUQHP+i+S3YpDxWeCRP5qyBiPjEkqpDcCzoT8DFJoApRr2e9eXU/jqmj8hx9Y707BvrSEp69tDPtgG5XE/NGsilWAAowAKeBE+GpGxp3cmYfAMLZCVrsFSswZHtpgwPD6H0hx1yUizAVQdkyDO0mFFmi4P1QQDYJ/YA6AuNpMoB1DWIcIfSPqBKM7U4PQ2C5pPe/B+tRGEqMvLNuBF+6APlNJ9V5uz97CoDKB3bEqxFxiF47w0z/R40DuW2AY2LwTwwOFJ2NfrUVmgU4WT5ACquiRIs3TO7/ffw5YoA3ih5OBk6fknzTvN6UHro57OKzJe/i6xDbEAyywadNWbuCq0D3hhC6pADlxtzmoin/0ulz73xfS51of1+seXp6sAXN4AVnaKUGhiGyIVcMsUh2oMcVWonFdhxjNDF5HFjokGgaCjekkaHJuM3CyNn3tw9npiG2IBynIFdNXxVWgb8MI+6GMf1UisDpeDENKULgB9jRYYdWobPrzsw6tnuRtZGDgWgL04XGNABacWWHFXdYmQZOokVqf7AgEtYxNs6/TYukxtw5/TClYfldgeH/fhATyUK+BYPBX6vbANyX3E6py4SYBsFrl2aRr2b+Tb8MSnEvpvKP8IIKhCrREV+ep9YV4FycUA/AQQ2GC2qfTvyESGVr2GDwz78Pq5+DbwFGAxmQpd9WYueHu/V4kCYKP2bzCgtki9hsc8Clj1xnviAbDxR2qNWMNRQZqllDx/ZmpaoTR8zlfma9FQchs3z6OfSPjxJt+GRADlrBbiqEAuufzu6Vka6myCie/LEaAT1Da8e9GLt/p8XLhEAGxCR60RqzkqhJdhZFTHJgOql6ht+E1UsL6bb0MygPI8tiLUtRDeiCIBthXr0BLniK09IeLKhPp0SgYQTwXCmk2TnlyP7PcydQQXdlig1ahtsA960TagtiEVgJV5WhytM0VZGMxgdbidhNCdkW8O1RhRWaBevyNuPzZ/7FHVQSoAbFLnFiNWLboVNwjAOl+tVnspsvlsLNHhjQp+p1PdLeIXMdqGVAFW5WnRGaFCWGOrw9VCCHkp9Gk5GQQ/NFig4TQWLX0zeOeiHKVCqgBsUne9yfdgrja41sMAwTbcbDhv0KI0tBN+sNmIe3O0Krkvu/x4umcK/gCFVwFMaQRFFg2O15uxsVuEKFN23GKO00mxDvmb7ea9VrNwMgogaIVTLG6tSv9++13pKXXEDMTxk4y2dWqrnurx4FtVJ0XCTSml9GsAa1VlfvdB9wpZwSnQ5G05Ox0pBTiLhdPARLfldL7z5k2dV2LBLiYhwxf0ahZZdQt2OY0t/f/rev4Xf/JoSqa8vT8AAAAASUVORK5CYII="
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAmlJREFUOE+lU0tME1EUPbedUkuLWCWCLcQaI8pCo5AoH4M/lAK60BW6M2rVnZIY3aELgwtiYKHEgoSNikGqYWHUhA0GQ1SEGE0EMakFdWEo7dTS78wz7w0UWt0Y7+rNPXPPPee9ewkZYXfPbZd0zEWMHQCRQ8CMeRnRYFIl9zeXdXx5CS1+FN6cNkk55jZGOE2ALpNY8AAqMXQlQ+ELM01FEZ4jxtgpADbPVML5whurfP41kVZb7zBg4yp9Wu6pNz404Qs5OQknmAFg53/8CCuo6pV5p1Ss0APN5dkotupQmm8Q+UeTMVwamnd7z6w+S4PTsRvVNsNlSae5OTYgY+ynktbxWoUJg74EemotICIkVYaa/pA6FVDLaEvPXHdnjfnkbrvG7n4fRcsbYS8VnKDldQR3D5lRacsS+T6u4uV8Bzk6ZydOlBiLr1eZBeCTFezpk/9KsC1Pj96GnJQK52N5khxd/lieibJGjudCT5qNw09kfJxdsrGoIKoA9+osqLRpaj2f43E62B9MgDGpfa8ZJWskAdwaj6B1NPqHBU6ws0CPhw0rBaYwMLo6HPaFk6yoNF9C42ajAL4EFNT0L9lYroDj9+ssqFhQQeu7/LcJOF+QTXjVmCv88aj1BDE5p4pzJsGuAkncBQ9aGN1RPn2eIznYsVaz0fYugvYxzUYmAc89qLegfJ0Bop2j03/HKMHl2mpEU1m2KPrkT+LoQAgqA5orTGh9G0UgxlJD5txgGO7Yb6kSBHwPruzLe6YwVr38/cIJhu+/VGyyaqPc/SGGYJxBBYZUOeycvlh47v+XKW1i+FL84zr/BjW6Hbn70mzSAAAAAElFTkSuQmCC"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Oswald:wght@200;300;400;500;600;700&family=Yuji+Mai&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Oswald:wght@200;300;400;500;600;700&family=Yuji+Mai&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Yuji+Mai&display=swap"
       rel="stylesheet"
