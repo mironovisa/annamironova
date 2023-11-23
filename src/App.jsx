@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { bart, russia, uk, scetch1 } from "./assets";
+import { bart, russia, uk, sketch1 } from "./assets";
 import Images from "./Images";
 import ContactForm from "./ContactForm";
 import i18n from "i18next";
@@ -132,7 +132,7 @@ const App = () => {
               <legend>{t("navbar.sketches")}</legend>
             </fieldset>
             <div className="scetches-mobile">
-              <img src={scetch1} alt="Anna Mironova" />
+              <img src={sketch1} alt="Anna Mironova" />
             </div>
           </div>
           <div className="section-my-works">
