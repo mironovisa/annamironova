@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { bart, russia, uk, scetch1, scetch2, scetch4 } from "./assets";
+import { bart, russia, uk, scetch1 } from "./assets";
 import Images from "./Images";
 import ContactForm from "./ContactForm";
 import i18n from "i18next";
@@ -102,6 +102,7 @@ const App = () => {
                 <img src={bart} alt="Галерея Бартеньева" />
               </div>
               <div className="image-float-left">
+                <p>{t("texts.exhibition_description")}</p>
                 <iframe
                   width="500"
                   height="305"
@@ -114,7 +115,6 @@ const App = () => {
                 ></iframe>
               </div>
 
-              <p>{t("texts.exhibition_description")}</p>
               <iframe
                 width="300"
                 height="305"
@@ -133,7 +133,6 @@ const App = () => {
             </fieldset>
             <div className="scetches-mobile">
               <img src={scetch1} alt="Anna Mironova" />
-              <img src={scetch4} alt="Anna Mironova" />
             </div>
           </div>
           <div className="section-my-works">
