@@ -1,0 +1,151 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  font-family: "Caveat", cursive;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.images {
+  display: flex;
+}
+
+.image-one img {
+  height: 300px;
+}
+
+.image-two img {
+  height: 300px;
+}
+
+.navbar-left {
+  font-size: 45px;
+  padding: 20px;
+}
+
+.logo-pixel {
+  position: absolute;
+  height: 120px;
+  opacity: 0.6;
+  top: -10px;
+  right: -30px;
+}
+.navbar-right {
+  position: relative;
+  font-size: 20px;
+}
+
+legend {
+  font-family: "Caveat", cursive;
+  font-family: "Yuji Mai", serif;
+  font-size: 20px;
+}
+fieldset {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+ul {
+  font-family: "Oswald", sans-serif;
+
+  list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+}
+.section-my-works {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-my-works-two {
+}
+
+.button-set {
+  display: flex;
+  line-height: 15px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+}
+.mobile-button-text {
+  line-height: 15px;
+}
+.button-icon {
+  width: 25px;
+  height: 25px;
+  padding-right: 5px;
+}
+.story {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+
+  width: 100%;
+
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.image-float-right img {
+  float: right;
+  margin: 10px 0 10px 20px;
+}
+
+.image-float-left {
+  float: left;
+  margin: 10px 20px 10px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.iframe-player-mobile {
+  display: none;
+}
+
+@media (max-width: 415px) {
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iframe-player {
+    display: none;
+  }
+  .section-my-works-two {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .story {
+    justify-content: flex-start;
+    width: 90%;
+    align-items: center;
+  }
+  .mobile-button-text {
+    display: none;
+  }
+}

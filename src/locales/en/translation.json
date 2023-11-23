@@ -1,0 +1,31 @@
+{
+    "navbar": {
+      "paintings": "Paintings",
+      "exhibitions": "Exhibitions",
+      "sketches": "Sketches",
+      "contacts": "Contacts"
+    },
+    "titles": {
+      "paintings": "Paintings",
+      "exhibitions_clips": "Exhibitions, Clips",
+      "sketches": "Sketches",
+      "contacts": "Contacts"
+    },
+    "texts": {
+      "gallery_description": "I was fortunate to present my series of works in the renowned <a href='https://taganka.vzmoscow.ru/'>gallery at Taganka</a>. This amazing space, under the guidance of the artist Andrey Bartenev, became the canvas for my creative expressions",
+      "exhibition_description": "Something amazing happened at this captivating exhibition. My work titled 'Hypnosis' not only adorned the gallery walls but also became a part of a musical composition. The rock band 'Ryzhiye' skillfully incorporated my artwork as an animation for the music video of the song 'Schizophrenia.' The fusion of visual art with the pulsating rhythms of 'Ryzhiye' transformed my painting into a living, breathing creation, captivating the audience both visually and sonically."
+    },
+    "form":
+    {
+      "name": "Please, enter your name",
+      "phname": "Your name",
+      "email": "Please, enter your email",
+      "phemail": "Your email",
+      "message": "Please, type your message",
+      "phmessage": "Send me something wonderful :)",
+      "sendbutton": "Send ",
+      "successmessage": "Message sent successfully, thank you!",
+      "errormessage": "Unfortunately, there was an error. Please try again!"
+    }
+  }
+  

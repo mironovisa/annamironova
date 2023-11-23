@@ -1,0 +1,46 @@
+.images {
+  position: relative;
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto;
+  justify-content: center;
+  
+}
+
+.image-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.image {
+  flex: 0 0 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  border: 2px solid transparent;
+}
+
+.thumbnail.active img {
+  border-color: #000; /* Change the border color for active thumbnail */
+}
